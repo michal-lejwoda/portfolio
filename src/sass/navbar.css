@@ -55,13 +55,13 @@
   margin-left: auto;
 }
 
-.navbar__links li a {
+.navbar__links li div {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
 
-.navbar__links li a:hover {
+.navbar__links li div:hover {
   cursor: pointer;
   color: #ffb633;
 }

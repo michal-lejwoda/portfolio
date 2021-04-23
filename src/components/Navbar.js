@@ -5,9 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="navbar__logo">LOGO</div>
             <div className="navbar__menulogo"><FontAwesomeIcon icon={faBars} size="2x" /></div>
-            
         </div>
     )
 }

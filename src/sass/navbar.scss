@@ -63,13 +63,13 @@ $screen-xl-min: 1200px;
         align-items: center;
         margin-left: auto;
         
-        li a{
+        li div{
             color:white;
             text-decoration: none;
             font-size: 20px;
             
         }
-        li a:hover{
+        li div:hover{
             cursor:pointer;
             color: rgb(255, 182, 51);
         }
