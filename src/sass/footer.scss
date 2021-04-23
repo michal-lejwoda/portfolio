@@ -1,0 +1,125 @@
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+.footer{
+    padding-top:60px;
+    &__container{
+        &__title{
+            font-size: 1.7rem;
+            color: rgb(247, 247, 247);
+            text-align: center;
+            display: table;
+            position: relative;
+            margin: 0px auto 72px;
+                margin-top: 0px;
+            font-weight: bold;
+            
+            h2::before{
+                bottom: 20px;
+                left: -11px;
+                content: "";
+                display: block;
+                position: absolute;
+                background: rgb(255, 182, 51) none repeat scroll 0% 0%;
+                width: 80%;
+                height: 3px;
+                border-radius: 50px;
+                transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+                opacity: 1;
+            }
+            h2::after{
+                content: "";
+                bottom: 6px;
+                right: -12px;
+                display: block;
+                position: absolute;
+                background: rgb(255, 182, 51) none repeat scroll 0% 0%;
+                width: 80%;
+                height: 3px;
+                border-radius: 50px;
+                transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+                opacity: 1;
+            }
+        }
+        &__boxes{
+            display:flex;
+            flex-direction: column;
+            margin-left:1rem;
+            margin-right:1rem;
+            @include md{
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            &__mail{
+                cursor: pointer;
+            }
+            &__mail{
+                padding:1rem;
+                border:2px solid #ffb633;
+                background-color: #272727;
+                margin-bottom:2rem;
+                @include md{
+                    width:45%;
+                }
+                &__icon{
+                    margin-bottom: 1rem;
+                }
+                &__emailaddress{
+                    margin-bottom: 2rem;
+                    font-size:1.5rem;
+                    transition: 0.5s;
+                }
+                
+            }
+            &__mail:hover{
+                cursor:pointer;
+            }
+            &__mail:hover > &__mail__emailaddress{
+                color:#ffb633;
+            }
+            &__github:hover{
+                cursor:pointer;
+            }
+            &__github:hover > &__github__emailaddress{
+                color:#ffb633;
+            }
+            &__github{
+                border:2px solid #ffb633;
+                background-color: #272727;
+                margin-bottom:2rem;
+                @include md{
+                    width:45%;
+                }
+                &__icon{
+                    margin-bottom: 1rem;
+                }
+                &__emailaddress{
+                    margin-bottom: 2rem;
+                    font-size:1.5rem;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

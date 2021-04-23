@@ -1,0 +1,135 @@
+.footer {
+  padding-top: 60px;
+}
+
+.footer__container__title {
+  font-size: 1.7rem;
+  color: #f7f7f7;
+  text-align: center;
+  display: table;
+  position: relative;
+  margin: 0px auto 72px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.footer__container__title h2::before {
+  bottom: 20px;
+  left: -11px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #ffb633 none repeat scroll 0% 0%;
+  width: 80%;
+  height: 3px;
+  border-radius: 50px;
+  -webkit-transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+  transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+  opacity: 1;
+}
+
+.footer__container__title h2::after {
+  content: "";
+  bottom: 6px;
+  right: -12px;
+  display: block;
+  position: absolute;
+  background: #ffb633 none repeat scroll 0% 0%;
+  width: 80%;
+  height: 3px;
+  border-radius: 50px;
+  -webkit-transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+  transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+  opacity: 1;
+}
+
+.footer__container__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .footer__container__boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.footer__container__boxes__mail {
+  cursor: pointer;
+}
+
+.footer__container__boxes__mail {
+  padding: 1rem;
+  border: 2px solid #ffb633;
+  background-color: #272727;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer__container__boxes__mail {
+    width: 45%;
+  }
+}
+
+.footer__container__boxes__mail__icon {
+  margin-bottom: 1rem;
+}
+
+.footer__container__boxes__mail__emailaddress {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer__container__boxes__mail:hover {
+  cursor: pointer;
+}
+
+.footer__container__boxes__mail:hover > .footer__container__boxes__mail__emailaddress {
+  color: #ffb633;
+}
+
+.footer__container__boxes__github:hover {
+  cursor: pointer;
+}
+
+.footer__container__boxes__github:hover > .footer__container__boxes__github__emailaddress {
+  color: #ffb633;
+}
+
+.footer__container__boxes__github {
+  border: 2px solid #ffb633;
+  background-color: #272727;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer__container__boxes__github {
+    width: 45%;
+  }
+}
+
+.footer__container__boxes__github__icon {
+  margin-bottom: 1rem;
+}
+
+.footer__container__boxes__github__emailaddress {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=footer.css.map */

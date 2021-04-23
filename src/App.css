@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.header{
+  background: url('/src/sass/computer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background-color: rgb(47,47,47);
+  color:white;
+}
+html {
+  scroll-behavior: smooth;
+}

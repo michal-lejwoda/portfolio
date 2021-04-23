@@ -1,0 +1,210 @@
+.header__particles {
+  left: 0px;
+  top: 60px;
+  width: 0px;
+  height: 0px;
+  border-top: 150px solid rgba(255, 182, 51, 0.8);
+  border-right: 250px solid transparent;
+}
+
+.header__container::before {
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  border-top: 150px solid #ffb633;
+  border-right: 250px solid transparent;
+}
+
+.header__container {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.header__container__titles {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+.header__container__titles__title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.header__container__titles__title span {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke: 0.3vw transparent;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .header__container__titles__title span {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container__titles__title span {
+    font-size: 5rem;
+  }
+}
+
+.header__container__titles__title span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffb633;
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 2px solid #ffb633;
+  overflow: hidden;
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  70%, 90% {
+    width: 100%;
+  }
+}
+
+@keyframes animate {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  70%, 90% {
+    width: 100%;
+  }
+}
+
+.header__container__titles__secondtitle {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.header__container__titles__secondtitle span {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke: 0.3vw transparent;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .header__container__titles__secondtitle span {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container__titles__secondtitle span {
+    font-size: 5rem;
+  }
+}
+
+.header__container__titles__secondtitle span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffb633;
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 2px solid #ffb633;
+  overflow: hidden;
+  -webkit-animation: animate 6s linear infinite;
+          animation: animate 6s linear infinite;
+}
+
+.header__container__titles__thirdtitle {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.header__container__titles__thirdtitle__title {
+  font-size: 1.6rem;
+  color: #ffb633;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .header__container__titles__thirdtitle__title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container__titles__thirdtitle__title {
+    font-size: 4rem;
+  }
+}
+
+.header__container__titles__thirdtitle__technologies {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.header__container__titles__thirdtitle__technologies span.verticalline {
+  color: #ffb633;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .header__container__titles__thirdtitle__technologies {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container__titles__thirdtitle__technologies {
+    font-size: 2.5rem;
+  }
+}
+
+.header__container__titles__thirdtitle__myprojects button {
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px solid brown;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+  .header__container__titles__thirdtitle__myprojects button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container__titles__thirdtitle__myprojects button {
+    font-size: 1.8rem;
+  }
+}
+
+.header__container__titles__thirdtitle__myprojects button:hover {
+  background-color: #ffb633;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */

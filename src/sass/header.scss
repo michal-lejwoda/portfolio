@@ -1,0 +1,209 @@
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+.header{
+    &__particles{
+        left: 0px;
+        top: 60px;
+        width: 0px;
+        height: 0px;
+        border-top: 150px solid rgba(255, 182, 51, 0.8);
+        border-right: 250px solid transparent;
+    }
+    &__container::before{
+        left: 0px;
+        top: 0px;
+        width: 0px;
+        height: 0px;
+        border-top: 150px solid rgb(255, 182, 51);
+        border-right: 250px solid transparent;
+        
+    }
+    &__container{
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: relative;
+        // &__box{
+        //     left: 0px;
+        //     top: 0px;
+        //     width: 0px;
+        //     height: 0px;
+        //     border-top: 150px solid rgba(255, 182, 51, 0.8);
+        //     border-right: 250px solid transparent;
+        // }
+        
+        &__titles{
+                position: absolute;
+                top:30%;
+                left:0;
+                right:0;
+                color:white;
+            &__title{
+                font-size:2rem;
+                color:white;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                
+        
+                span{
+                    position:relative;
+                    font-size: 2rem;
+                    color:white;
+                    -webkit-text-stroke: 0.3vw transparent;
+                    text-transform: uppercase;
+                    @include lg {
+                        font-size:4rem
+                        
+                    }
+                    @include xl {
+                        font-size:5rem
+                        
+                    }
+                    // text-shadow: 1px 2px 1px #919191;
+                }
+                span::before{
+                    content: attr(data-text);
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    height:100%;
+                    color:#ffb633;
+                    -webkit-text-stroke: 0vw #383d52;
+                    border-right: 2px solid #ffb633;
+                    overflow: hidden;
+                    animation: animate 6s linear infinite;
+
+                }
+                @keyframes animate{
+                    0%,10%,100%{
+                        width:0;
+                    }70%,90%{
+                        width:100%;
+                    }
+                }
+            }
+            &__secondtitle{
+                font-size:1.8rem;
+                color:white;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+                span{
+                    position:relative;
+                    font-size: 2rem;
+                    color:white;
+                    -webkit-text-stroke: 0.3vw transparent;
+                    text-transform: uppercase;
+                    // text-shadow: 1px 2px 1px #919191;
+                    white-space: nowrap ;
+                    @include lg {
+                        font-size:4rem
+                    }
+                    @include xl {
+                        font-size:5rem
+                        
+                    }
+                }
+                span::before{
+                    content: attr(data-text);
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    width: 100%;
+                    height:100%;
+                    color:#ffb633;
+                    -webkit-text-stroke: 0vw #383d52;
+                    border-right: 2px solid #ffb633;
+                    overflow: hidden;
+                    animation: animate 6s linear infinite;
+
+                }
+                
+            }
+            &__thirdtitle{
+                
+                color:white;
+                font-weight: 700;
+                margin-bottom: 2rem;
+                &__title{
+                    font-size:1.6rem;
+                    color:#ffb633;
+                    margin-bottom:1rem;
+                    @include lg {
+                        font-size:3rem
+                    }
+                    @include xl {
+                        font-size:4rem
+                        
+                    }
+                }
+                &__technologies{
+                    font-size:1.4rem;
+                    margin-bottom: 1.5rem;
+                    span.verticalline{
+                        color:#ffb633;
+                        margin-left:0.5rem;
+                        margin-right:0.5rem;
+                    }
+                    @include lg {
+                        font-size:2rem
+                    }
+                    @include xl {
+                        font-size:2.5rem
+                        
+                    }
+                    
+                }
+                &__myprojects{
+                    button{
+                        background-color: transparent;
+                        color:white;
+                        padding:1rem;
+                        font-size:1.2rem;
+                        font-weight: 700;
+                        border: 1px solid brown;
+                        transition: 0.5s;
+                        @include lg {
+                            font-size:1.5rem
+                        }
+                        @include xl {
+                            font-size:1.8rem
+                            
+                        }
+                        
+                    }
+                    button:hover{
+                        background-color:#ffb633;
+                        cursor: pointer;
+
+                    }
+                }
+                
+            }
+        }
+    }
+    
+    
+
+}
