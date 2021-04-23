@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>Portolio</title>
+        <title>Portfolio</title>
         
         <link rel="icon" type="mylogo.png" href="mylogo.ico" sizes="16x16" />
       </Helmet>
