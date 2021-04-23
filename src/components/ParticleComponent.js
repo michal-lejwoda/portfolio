@@ -1,6 +1,4 @@
 import React from "react";
-import Particles from "react-particles-js";
-import particlesConfig from "./particlesConfig.json"
 export default () => (
   <div
     style={{
@@ -11,9 +9,6 @@ export default () => (
       height: "100%"
     }}
   >
-    {/* <Particles
-            className="home-page-header__particles is-hidden-mobile"
-            params={particlesConfig}
-          /> */}
+    
   </div>
 );

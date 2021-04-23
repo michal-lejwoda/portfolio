@@ -44,14 +44,6 @@ $screen-xl-min: 1200px;
             height: 100vh;
             background-color: rgba(0, 0, 0, 0.7);
             position: relative;
-        // &__box{
-        //     left: 0px;
-        //     top: 0px;
-        //     width: 0px;
-        //     height: 0px;
-        //     border-top: 150px solid rgba(255, 182, 51, 0.8);
-        //     border-right: 250px solid transparent;
-        // }
         
         &__titles{
                 position: absolute;
@@ -80,7 +72,6 @@ $screen-xl-min: 1200px;
                         font-size:5rem
                         
                     }
-                    // text-shadow: 1px 2px 1px #919191;
                 }
                 span::before{
                     content: attr(data-text);
@@ -115,7 +106,6 @@ $screen-xl-min: 1200px;
                     color:white;
                     -webkit-text-stroke: 0.3vw transparent;
                     text-transform: uppercase;
-                    // text-shadow: 1px 2px 1px #919191;
                     white-space: nowrap ;
                     @include lg {
                         font-size:4rem

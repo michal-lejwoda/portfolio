@@ -1,5 +1,4 @@
 import React from 'react';
-import ParticleComponent from './ParticleComponent';
 import Particles from "react-particles-js";
 import particlesConfig from "./particlesConfig.json";
 import '../sass/header.css';

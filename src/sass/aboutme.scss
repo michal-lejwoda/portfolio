@@ -64,32 +64,6 @@ $screen-xl-min: 1200px;
                 opacity: 1;
             }
         }
-        // &__title::before{
-        //     bottom:-30px;
-        //     left: -12px;
-        //     content: "";
-        //     display: block;
-        //     position: absolute;
-        //     background: rgb(255, 182, 51) none repeat scroll 0% 0%;
-        //     width: 70%;
-        //     height: 3px;
-        //     border-radius: 50px;
-        //     transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
-        //     opacity: 1;
-        // }
-        // &__title::after{
-        //     content: "";
-        //     bottom: -24px;
-        //     right: -12px;
-        //     display: block;
-        //     position: absolute;
-        //     background: rgb(255, 182, 51) none repeat scroll 0% 0%;
-        //     width: 70%;
-        //     height: 3px;
-        //     border-radius: 50px;
-        //     transition: left 0.5s ease-in-out 0s, right 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
-        //     opacity: 1;
-        // }
         &__description{
             padding-left:0.8rem;
             padding-right:0.8rem;
