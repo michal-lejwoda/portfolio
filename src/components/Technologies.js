@@ -82,6 +82,9 @@ const Technologies = props => {
                 GitHub
             </div>
             <div className="technologies__container__restelement__title">
+                Gitlab
+            </div>
+            <div className="technologies__container__restelement__title">
                 Mercurial
             </div>
             <div className="technologies__container__restelement__title">
@@ -90,7 +93,21 @@ const Technologies = props => {
             <div className="technologies__container__restelement__title">
                 Bem
             </div>
-            
+            <div className="technologies__container__restelement__title">
+                Redis
+            </div>
+            <div className="technologies__container__restelement__title">
+                Wzorce projektowe
+            </div>
+            <div className="technologies__container__restelement__title">
+                Docker
+            </div>
+            <div className="technologies__container__restelement__title">
+                Technologie gis
+            </div>
+            <div className="technologies__container__restelement__title">
+                Heroku
+            </div>
             </div>
 
 

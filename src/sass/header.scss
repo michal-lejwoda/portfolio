@@ -22,6 +22,10 @@ $screen-xl-min: 1200px;
         @content;
     }
  }
+
+#tsparticles-canvas-el{
+    display:none
+}
 .header{
     &__particles{
         left: 0px;
@@ -175,6 +179,7 @@ $screen-xl-min: 1200px;
                         font-weight: 700;
                         border: 1px solid brown;
                         transition: 0.5s;
+                        pointer-events: all;
                         @include lg {
                             font-size:1.5rem
                         }
