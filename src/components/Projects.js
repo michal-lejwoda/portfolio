@@ -18,7 +18,7 @@ const Projects = () => {
                     <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/saxatachi/true-effects-deploy')}>Github <img alt="github" src="./GitHub-Mark-32px.png"/></div>
                 </div>
                 <div className="projects__container__element__description">
-                    Aplikacja ma za zadanie ułatwić trening siłowy w domu. Posiada funkcję dodawania pomiarów, celów treningowych oraz układania treningu za pomocą kreatora. Aplikacja pozwala również na monitorowanie czasu treningu jak i zapisywanie w bazie danych wykonanych powtórzeń.
+                    The app is designed to facilitate strength training at home. It has the function of adding measurements, training goals and arranging workouts. The app also allows user to monitor workout time as well as save completed repetitions in a database.
                 </div>
             </div>
             <div className="projects__container__element">
