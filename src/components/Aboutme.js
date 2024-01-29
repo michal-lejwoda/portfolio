@@ -9,8 +9,11 @@ const Aboutme = () => {
     },[]);
     return (
         <div data-aos="fade-right" className="aboutme__container">
-            <div className="aboutme__container__title"><h2>O mnie</h2></div>
-            <div className="aboutme__container__description">Nazywam się Michał Lejwoda. Jestem studentem 4 roku Informatyki na Uniwersytecie Marii Curie Skłodowskiej. Interesują mnie nowe technologie i rozwiązania w świecie web developmentu i branży IT. Tworzeniem stron internetowych zajmuję się od 3 lat. Jako back end upodobałem sobie framework Django natomiast front end piszę w bibliotece React. Jako osoba wytrwała i sumienna w dążeniu do wyznaczonych celów rozwijam swoją pasję codzienną, systematyczną pracą.
+            <div className="aboutme__container__title"><h2>About me</h2></div>
+            <div className="aboutme__container__description">My name is Michał Lejwoda. I am a master's graduate from Marie Curie Sklodowska University.
+                I am interested in new technologies and solutions in the world of web development and IT industry.
+                I have been developing websites for 5 years. My main technologies are django and react.
+                As a persistent and conscientious person in pursuit of my goals, I develop my passion with daily, systematic work.
             </div>
             
         </div>
