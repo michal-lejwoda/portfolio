@@ -10,52 +10,52 @@ const Technologies = props => {
     },[]);
     return (
         <div className="technologies__container">
-            <div data-aos="fade-right" className="technologies__container__title"><h2>Główne Technologie</h2></div>
+            <div data-aos="fade-right" className="technologies__container__title"><h2>My Technologies</h2></div>
             <div className="technologies__container__elements">
             <div data-aos="fade-down" className="technologies__container__element">
                 <div className="technologies__container__element__image">
                     <img alt="html"  src="./html-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">Html</div>
-                <div className="technologies__container__element__description">Od HTML oraz CSS wszystko się zaczęło, dlatego znam HTML bardzo dobrze, piszę kod wydajny, prosty do odczytu oraz w pełni poprawny semantycznie.</div>
+                <div className="technologies__container__element__description">HTML and CSS is where it all started, so I know HTML very well, write code that is efficient, easy to read and fully semantically correct.</div>
             </div>
             <div data-aos="fade-down"  className="technologies__container__element">
                 <div className="technologies__container__element__image">
                     <img alt="css" src="./css-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">Css</div>
-                <div className="technologies__container__element__description">CSS jest to technologia, z którą miałem styczność od samego początku Mojej przygody z tworzeniem stron internetowych. Umiem pisać strony w pełni responsywne, działające dobrze na wszystkich najpopularniejszych przeglądarkach</div>
+                <div className="technologies__container__element__description">CSS is a technology that I have been familiar with since the very beginning of My web development adventure. I know how to write fully responsive websites that work well on all most popular browsers</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
             <div className="technologies__container__element__image">
                     <img alt="js" src="./js-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">JavaScript</div>
-                <div className="technologies__container__element__description">Posiadam solidne podstawy w języku javascript. Posiadam styczność również z biblioteką JQuery</div>
+                <div className="technologies__container__element__description">I have a solid foundation in javascript. I also have exposure to the jQuery library</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
             <div className="technologies__container__element__image">
                     <img alt="django" src="./django-icon.png"/>
             </div>
             <div className="technologies__container__element__title">Django</div>
-            <div className="technologies__container__element__description">Jest to framework w którym piszę swój back end. Potrafię tworzyć efektywne Rest Api oraz tworzyć testy jednostkowe. Posługuję się również całkiem sprawnie ORM oraz bazami danych</div>
+            <div className="technologies__container__element__description">This is the framework in which I write my back end. I can create an effective Rest Api and create unit tests. I also use ORM and databases quite efficiently.</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
                 <div className="technologies__container__element__image">
                     <img alt="react" src="./react-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">React</div>
-                <div className="technologies__container__element__description">Jest to biblioteka w której piszę mój front end. Podczas tworzenia kodu głównie używam hooków oraz React Routera.</div>
+                <div className="technologies__container__element__description">This is the library in which I write my front end. I mainly use hooks and React Router when developing code.</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
                 <div className="technologies__container__element__image">
                     <img alt="git" src="./git-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">Git</div>
-                <div className="technologies__container__element__description">Potrafię korzystać z najpopularniejszego systemu kontroli wersji jakim jest Git jak i serwisu Github. Nie obce są mi tematy commitów oraz branchów oraz cyklów pracy takich jak Gitflow czy Feature Branching. </div>
+                <div className="technologies__container__element__description">I can use the most popular version control system that is Git as well as the Github and Gitlab services. I am no stranger to the topics of commits and branches and workflows such as Gitflow.</div>
             </div>
             </div>
-            <div className="technologies__container__secondtitle"><h2>Pozostałe Technologie</h2></div>
+            <div className="technologies__container__secondtitle"><h2>Rest technologies</h2></div>
             <div className="technologies__container__restelement">
             <div className="technologies__container__restelement__title">
                 Redux
@@ -97,13 +97,13 @@ const Technologies = props => {
                 Redis
             </div>
             <div className="technologies__container__restelement__title">
-                Wzorce projektowe
+                Fast Api
             </div>
             <div className="technologies__container__restelement__title">
                 Docker
             </div>
             <div className="technologies__container__restelement__title">
-                Technologie gis
+                Gis technologies
             </div>
             <div className="technologies__container__restelement__title">
                 Heroku
