@@ -109,8 +109,6 @@ const Technologies = props => {
                     Alembic
                 </div>
             </div>
-
-
         </div>
     )
 }
