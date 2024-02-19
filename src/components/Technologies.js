@@ -57,61 +57,60 @@ const Technologies = props => {
             </div>
             <div className="technologies__container__secondtitle"><h2>Rest technologies</h2></div>
             <div className="technologies__container__restelement">
-            <div className="technologies__container__restelement__title">
-                Redux
-            </div>
-            <div className="technologies__container__restelement__title">
-                Python
-            </div>
-            <div className="technologies__container__restelement__title">
-                Sass
-            </div>
-            <div className="technologies__container__restelement__title">
-                Django Rest Framework
-            </div>
-            <div className="technologies__container__restelement__title">
-                Rest
-            </div>
-            <div className="technologies__container__restelement__title">
-                PostgreSQL
-            </div>
-            <div className="technologies__container__restelement__title">
-                MySQL
-            </div>
-            <div className="technologies__container__restelement__title">
-                GitHub
-            </div>
-            <div className="technologies__container__restelement__title">
-                Gitlab
-            </div>
-            <div className="technologies__container__restelement__title">
-                Mercurial
-            </div>
-            <div className="technologies__container__restelement__title">
-                Celery
-            </div>
-            <div className="technologies__container__restelement__title">
-                Bem
-            </div>
-            <div className="technologies__container__restelement__title">
-                Redis
-            </div>
-            <div className="technologies__container__restelement__title">
-                Fast Api
-            </div>
-            <div className="technologies__container__restelement__title">
-                Docker
-            </div>
-            <div className="technologies__container__restelement__title">
-                Gis technologies
-            </div>
-            <div className="technologies__container__restelement__title">
-                Heroku
-            </div>
+                <div className="technologies__container__restelement__title">
+                    Redux
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Python
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Sass
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Django Rest Framework
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Rest
+                </div>
+                <div className="technologies__container__restelement__title">
+                    PostgreSQL
+                </div>
+                <div className="technologies__container__restelement__title">
+                    GitHub
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Gitlab
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Mercurial
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Celery
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Bem
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Redis
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Fast Api
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Docker
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Gis Technologies
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Heroku
+                </div>
+                <div className="technologies__container__restelement__title">
+                    Alembic
+                </div>
             </div>
 
 
-            
         </div>
     )
 }
