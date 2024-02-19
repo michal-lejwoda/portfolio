@@ -1,20 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import '../sass/header.css';
-import Particles, {initParticlesEngine} from "@tsparticles/react";
-import {loadSlim} from "@tsparticles/slim";
-// import Particles from "@tsparticles/react";
 
 const Header = () => {
-    const [init, setInit] = useState(false);
-
-    // this should be run only once per application lifetime
-    useEffect(() => {
-        initParticlesEngine(async (engine) => {
-            await loadSlim(engine);
-        }).then(() => {
-            setInit(true);
-        });
-    }, []);
     return (
         <div className="header__container">
             <div className="header__particles"></div>
