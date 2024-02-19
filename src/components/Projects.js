@@ -8,43 +8,42 @@ const Projects = () => {
     }
     return (
         <div className="projects__container">
-            <div className="projects__container__title"><h2>Projekty</h2></div>
+            <div className="projects__container__title"><h2>Projects</h2></div>
             <div className="projects__container__elements">
             <div className="projects__container__element">
                 <div className="projects__container__element__title">TrueEffects</div>
-                <div className="projects__container__element__image"><div className="projects__container__element__image--img"><img alt="trueeffects" src="./trueeffects.png"/></div></div>
+                <div className="projects__container__element__image"><div className="projects__container__element__image--img"><img alt="trueeffects" src="./true-effects.png"/></div></div>
                 <div className="projects__container__element__buttons">
-                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://true-effects.herokuapp.com/')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
-                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/saxatachi/true-effects-deploy')}>Github <img alt="github" src="./GitHub-Mark-32px.png"/></div>
+                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://www.true-effects.pl')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
+                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/michal-lejwoda/true-effects')}>Github <img alt="github" src="./GitHub-Mark-32px.png"/></div>
                 </div>
                 <div className="projects__container__element__description">
-                    The app is designed to facilitate strength training at home. It has the function of adding measurements, training goals and arranging workouts. The app also allows user to monitor workout time as well as save completed repetitions in a database.
+                    A strength training app that allows user to create workouts, train and store key information about training.
                 </div>
             </div>
             <div className="projects__container__element">
-                <div className="projects__container__element__title">Sporty Walki</div>
-                <div className="projects__container__element__image"><div className="projects__container__element__image--img"><img alt="sportywalki" src="./sportywalki.png"/></div></div>
+                <div className="projects__container__element__title">Trainer page</div>
+                <div className="projects__container__element__image"><div className="projects__container__element__image--img"><img alt="sportywalki" src="./trainer.png"/></div></div>
                 <div className="projects__container__element__buttons">
-                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://sportywalki.herokuapp.com/')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
-                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/saxatachi/Blog')}>Github <img alt="github"  src="./GitHub-Mark-32px.png" /></div>
+                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://www.trener-personalny-michal.pl')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
+                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/michal-lejwoda/trainer_page')}>Github <img alt="github"  src="./GitHub-Mark-32px.png" /></div>
                 </div>
                 <div className="projects__container__element__description">
-                    Strona napisana w Django umożliwiająca użytkownikom przeczytanie o aktualnych informacjach oraz wydarzeniach w świecie sportów walki.
+                    An app to invite people to use the services of a personal trainer. It has functionalities such as booking a workout or sending emails with workout details.
                 </div>
             </div>
             <div className="projects__container__element">
-                <div className="projects__container__element__title">Atrakcje</div>
+                <div className="projects__container__element__title">Grades scrapper</div>
                 <div className="projects__container__element__image"><div className="projects__container__element__image--img"><img alt="atrakcje" src="./atrakcje1.png"/></div></div>
                 <div className="projects__container__element__buttons">
-                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://atrakcje.herokuapp.com/')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
-                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/saxatachi/Atrakcje')}>Github <img alt="github"  src="./GitHub-Mark-32px.png"/></div>
+                    <div className="projects__container__element__buttons__livebutton" onClick={()=>click('https://www.scrapper-omi.pl')}><FontAwesomeIcon icon={faArrowUp}/>Live</div>
+                    <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/michal-lejwoda/web_grades_scrapper')}>Github <img alt="github"  src="./GitHub-Mark-32px.png"/></div>
                 </div>
                 <div className="projects__container__element__description">
-                    Aplikacja wykonana w Django oraz React umożliwiająca użytkownikowi wyświetlenie informacji z bazy danych (PostGis) o zabytkach lub wydarzeniach miasta Lublin oraz wyznaczyć trasę między nimi dzięki bibliotece react-leaflet. Aplikacja umożliwia również dodawanie propozycji punktów.
+                    An application that takes key data from sites such as opencritic, metacritic, imdb using the soap library and displays it in a processed form readable to the user.
                 </div>
             </div>
             </div>
-            
         </div>
     )
 }

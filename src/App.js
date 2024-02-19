@@ -48,10 +48,10 @@ function App() {
         <div className="navbar">
           <div className="navbar__menulogo" onClick={hamburgerClick}><FontAwesomeIcon icon={faBars} size="2x" /></div>   
           <ul className="navbar__links" ref={navLinks}>
-            <li><div onClick={executeScrollAboutMe} >O mnie</div></li>
-            <li><div onClick={executeScrollTechnologies}>Technologie</div></li>
-            <li><div onClick={executeScrollProjects}>Projekty</div></li>
-            <li><div onClick={executeScrollContact}>Kontakt</div></li>
+            <li><div onClick={executeScrollAboutMe} >About me</div></li>
+            <li><div onClick={executeScrollTechnologies}>Technologies</div></li>
+            <li><div onClick={executeScrollProjects}>Projects</div></li>
+            <li><div onClick={executeScrollContact}>Contact</div></li>
           </ul>
         </div>
       </nav>
@@ -60,7 +60,6 @@ function App() {
       <section ref={technologiesRef} className="technologies"><Technologies /></section>
       <section ref={projectsRef} className="projects"><Projects /></section>
       <section ref={contactRef} className="footer"><Footer /></section>
-
     </div>
   );
 }

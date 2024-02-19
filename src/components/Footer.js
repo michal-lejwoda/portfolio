@@ -21,10 +21,10 @@ const Footer = () => {
                     <div className="footer__container__boxes__mail__icon"><FontAwesomeIcon icon={faEnvelope} size={"2x"}/></div>
                     <div className="footer__container__boxes__mail__emailaddress">michal.lejwoda@gmail.com</div>
                 </div>
-                <div data-aos="fade-up" onClick={() => click('https://github.com/saxatachi')} className="footer__container__boxes__github">
+                <div data-aos="fade-up" onClick={() => click('https://github.com/orgs/michal-lejwoda/repositories')} className="footer__container__boxes__github">
                     <div className="footer__container__boxes__github__title"><h2>Github</h2></div>
                     <div className="footer__container__boxes__github__icon"><img alt="github" src="./GitHub-Mark-32px.png"/></div>
-                    <div className="footer__container__boxes__github__emailaddress">Kliknij Tutaj.</div>
+                    <div className="footer__container__boxes__github__emailaddress">Kliknij Tutaj</div>
             </div>
             </div>
             <div className="footer__container__rest">Michał Lejwoda - Portfolio 2024r.</div>
