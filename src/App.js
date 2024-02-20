@@ -20,7 +20,7 @@ function App() {
     const contactRef = useRef(null)
     const navLinks = useRef(null)
     const [init, setInit] = useState(false);
-    // const style = {position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"};
+    const style = {position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"};
     useEffect(() => {
         initParticlesEngine(async (engine) => {
             await loadSlim(engine);
@@ -55,12 +55,12 @@ function App() {
                 <title>Portfolio</title>
                 <link rel="icon" type="mylogo.png" href="mylogo.ico" sizes="16x16"/>
             </Helmet>
-            {/*{init ? */}
             <div>
                 <nav>
                     <div className="navbar">
-                        <div className="navbar__menulogo" onClick={hamburgerClick}><FontAwesomeIcon icon={faBars}
-                                                                                                    size="2x"/></div>
+                        <div className="navbar__menulogo" onClick={hamburgerClick}>
+                            <FontAwesomeIcon icon={faBars} size="2x"/>
+                        </div>
                         <ul className="navbar__links" ref={navLinks}>
                             <li>
                                 <div onClick={executeScrollAboutMe}>About me</div>
@@ -78,26 +78,22 @@ function App() {
                     </div>
                 </nav>
 
-                <section className="header"><Header executeScrollProjects={executeScrollProjects}/></section>
-                <section ref={aboutmeRef} className="aboutme"><Aboutme init={init}/></section>
-                <section ref={technologiesRef} className="technologies"><Technologies/></section>
-                <section ref={projectsRef} className="projects"><Projects/></section>
-                <section ref={contactRef} className="footer"><Footer/></section>
+                <section className="header">
+                    <Header executeScrollProjects={executeScrollProjects}/>
+                </section>
+                <section ref={aboutmeRef} className="aboutme">
+                    <Aboutme init={init}/>
+                </section>
+                <section ref={technologiesRef} className="technologies">
+                    <Technologies/>
+                </section>
+                <section ref={projectsRef} className="projects">
+                    <Projects/>
+                </section>
+                <section ref={contactRef} className="footer">
+                    <Footer/>
+                </section>
             </div>
-            {/*//     :*/}
-            {/*//     <div style={style}>*/}
-            {/*//         <Blocks*/}
-            {/*//             height="120"*/}
-            {/*//             width="120"*/}
-            {/*//             color="#4fa94d"*/}
-            {/*//             ariaLabel="blocks-loading"*/}
-            {/*//             wrapperStyle={{}}*/}
-            {/*//             wrapperClass="blocks-wrapper"*/}
-            {/*//             visible={true}*/}
-            {/*//         />*/}
-            {/*//     </div>*/}
-            {/*// }*/}
-
         </div>
     );
 }
