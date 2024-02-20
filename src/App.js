@@ -20,7 +20,7 @@ function App() {
     const contactRef = useRef(null)
     const navLinks = useRef(null)
     const [init, setInit] = useState(false);
-    const style = {position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"};
+    // const style = {position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"};
     useEffect(() => {
         initParticlesEngine(async (engine) => {
             await loadSlim(engine);
