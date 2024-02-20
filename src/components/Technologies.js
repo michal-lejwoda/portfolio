@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Technologies = props => {
     useEffect(()=>{
-        Aos.init({duration:2000})
+        Aos.init({duration:500})
     },[]);
     return (
         <div className="technologies__container">
