@@ -29,7 +29,7 @@ const Projects = () => {
                     <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/michal-lejwoda/trainer_page')}>Github <img alt="github"  src="./GitHub-Mark-32px.png" /></div>
                 </div>
                 <div className="projects__container__element__description">
-                    An app to invite people to use the services of a personal trainer. It has functionalities such as booking a workout or sending emails with workout details.
+                    A website designed to attract the use of a personal trainer. It has functionalities such as booking a workout or sending emails with workout details.
                 </div>
             </div>
             <div className="projects__container__element">
@@ -40,7 +40,7 @@ const Projects = () => {
                     <div className="projects__container__element__buttons__githubbutton" onClick={()=>click('https://github.com/michal-lejwoda/web_grades_scrapper')}>Github <img alt="github"  src="./GitHub-Mark-32px.png"/></div>
                 </div>
                 <div className="projects__container__element__description">
-                    An application that takes key data from sites such as opencritic, metacritic, imdb using the soap library and displays it in a processed form readable to the user.
+                    An application that takes key data from sites such as opencritic, metacritic, imdb using the BeatifullSoup library and displays it in a processed form readable to the user.
                 </div>
             </div>
             </div>
