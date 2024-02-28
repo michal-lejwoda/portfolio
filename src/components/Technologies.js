@@ -23,7 +23,7 @@ const Technologies = props => {
                     <img alt="css" src="./css-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">Css</div>
-                <div className="technologies__container__element__description">CSS is a technology that I have been familiar with since the very beginning of my web development adventure. I know how to write fully responsive websites that work well on all most popular browsers</div>
+                <div className="technologies__container__element__description">I know how to write fully responsive websites that work well on all most popular browsers</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
             <div className="technologies__container__element__image">
@@ -44,14 +44,14 @@ const Technologies = props => {
                     <img alt="react" src="./react-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">React</div>
-                <div className="technologies__container__element__description">React is my main javascript framework. I use this technology in most of my projects. When writing my code I use hooks and take care of optimizations.</div>
+                <div className="technologies__container__element__description">React is my main js framework. I use this technology in most of my projects. When writing my code I use hooks and take care of optimizations.</div>
             </div>
             <div data-aos="fade-down" className="technologies__container__element">
                 <div className="technologies__container__element__image">
                     <img alt="git" src="./git-icon.png"/>
                 </div>
                 <div className="technologies__container__element__title">Git</div>
-                <div className="technologies__container__element__description">I can use popular version control system like Git as well as the Github and Gitlab services. I am no stranger to the topics of commits and branches and workflows such as Gitflow.</div>
+                <div className="technologies__container__element__description">I can use popular version control system like Git as well as the Github and Gitlab services. I am no stranger to the topics of commits, branches and workflows such as Gitflow.</div>
             </div>
             </div>
             <div className="technologies__container__secondtitle"><h2>Rest technologies</h2></div>
